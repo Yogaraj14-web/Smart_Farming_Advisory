@@ -1,0 +1,180 @@
+{
+  "model_type": "RandomForestClassifier",
+  "training_date": "2026-02-07T22:29:00.412603",
+  "n_estimators": 100,
+  "max_depth": 10,
+  "n_samples_train": 8000,
+  "n_samples_test": 2000,
+  "target_classes": [
+    "dap",
+    "iron_sulfate",
+    "npk_10_10_10",
+    "npk_20_20_20",
+    "organic_compost",
+    "potash",
+    "urea",
+    "zinc_sulfate"
+  ],
+  "feature_names": [
+    "nitrogen",
+    "phosphorus",
+    "potassium",
+    "leaf_color",
+    "weather"
+  ],
+  "metrics": {
+    "accuracy": 0.9955,
+    "classification_report": {
+      "0": {
+        "precision": 0.971830985915493,
+        "recall": 0.9857142857142858,
+        "f1-score": 0.9787234042553191,
+        "support": 140.0
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 101.0
+      },
+      "2": {
+        "precision": 0.9975932611311673,
+        "recall": 1.0,
+        "f1-score": 0.9987951807228915,
+        "support": 829.0
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 0.8928571428571429,
+        "f1-score": 0.9433962264150944,
+        "support": 28.0
+      },
+      "4": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 317.0
+      },
+      "5": {
+        "precision": 0.9962121212121212,
+        "recall": 1.0,
+        "f1-score": 0.9981024667931688,
+        "support": 263.0
+      },
+      "6": {
+        "precision": 1.0,
+        "recall": 0.9819819819819819,
+        "f1-score": 0.990909090909091,
+        "support": 222.0
+      },
+      "7": {
+        "precision": 0.9803921568627451,
+        "recall": 1.0,
+        "f1-score": 0.9900990099009901,
+        "support": 100.0
+      },
+      "accuracy": 0.9955,
+      "macro avg": {
+        "precision": 0.9932535656401908,
+        "recall": 0.9825691763191764,
+        "f1-score": 0.9875031723745693,
+        "support": 2000.0
+      },
+      "weighted avg": {
+        "precision": 0.9955520775354846,
+        "recall": 0.9955,
+        "f1-score": 0.9954651218465826,
+        "support": 2000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        138,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        101,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        829,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        25,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        317,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        263,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        218,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100
+      ]
+    ],
+    "feature_importance": {
+      "nitrogen": 0.11362614849130023,
+      "phosphorus": 0.14281386592509687,
+      "potassium": 0.24459994195977122,
+      "leaf_color": 0.2343620600470005,
+      "weather": 0.26459798357683106
+    }
+  }
+}
