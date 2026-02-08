@@ -77,3 +77,4 @@ build/
 *.egg-info/
 .installed.cfg
 *.egg
+"frontend/node_modules/"  
